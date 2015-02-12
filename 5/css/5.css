@@ -7,8 +7,8 @@
 .container {
 	background: url("../img/bg.png");
 	font-size: 1.25em;
-	width: 1000px;
-	margin: 0, auto;
+	border-width: 960px;
+	
 }
 
 h3 {
@@ -22,14 +22,28 @@ h3 img {
 
 section {
 	padding: 10px;
+	width: 960px auto;
 }
 
 .clearfix {
 	clear: both;
 }
 
+.row1 {
+	width:320px;
+
+}
+
+.row2 {
+	width:480px;
+}
+
 /* Row 1 Styling 
 	HINT: How many pixels are being used horizontally? 
+
+.clearfix {
+	clear: both;
+
 */
 
 
