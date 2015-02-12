@@ -1,0 +1,55 @@
+/*
+	* Watch video: https://www.dropbox.com/s/iko26rz5j2g9ljk/midterm-links.m4v?dl=0
+	* Style to match
+	* Add to existing styling
+*/
+
+p {
+	padding-top: 60px;
+	clear: both;
+}
+
+/***************
+	Navigation
+***************/
+li {
+  float: left;
+  margin: 0 4px 0 4px;
+}
+
+a:link,
+a:visited  {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+
+a:hover,
+a:active {
+	color: rgb(13, 202, 250);
+}
+
+a:focus {
+  border: 1px dotted #000;
+}
+
+/***************
+	Hover States 
+***************/
+
+#Chrome a:hover {
+	background: url(../img/chrome.png) no-repeat;
+}
+
+#Firefox a:hover {
+	background: url(../img/firefox.png) no-repeat;
+}
+
+#Internet a:hover {
+	background: url(../img/ie.png) no-repeat;
+}
+
+#Safari a:hover {
+	background: url(../img/safari.png) no-repeat;
+}

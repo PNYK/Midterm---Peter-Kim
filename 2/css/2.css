@@ -1,0 +1,27 @@
+/*
+ * Background Pattern: http://subtlepatterns.com/patterns/rough_diagonal.png 	
+*/
+
+body {
+	background: #000;
+
+}
+
+.container {
+	border-radius: 2px;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+	background: url(http://subtlepatterns.com/patterns/rough_diagonal.png);
+}
+
+.container img {
+	border-radius: 2500px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 10px #000;
+}
+
+.container p, 
+.container li {
+	text-align: left;
+}

@@ -1,0 +1,23 @@
+/*
+	1. Override background color
+	   * background: #000
+	2. Override 'Papyrus' font. 
+	  * font-family: Verdana, Geneva, sans-serif;
+	3. Make avatar image circular
+	   * border-radius: 200px;
+
+	NOTE: Appending '!important' is NOT PERMITTED. Use specificity.
+*/ 
+
+html body{ 
+background-color: #000;
+}
+
+html #zeldman img {
+	border-radius: 200px;
+}
+
+html .bio{
+	font-family: Verdana, Geneva, Sans-serif;
+}
+
